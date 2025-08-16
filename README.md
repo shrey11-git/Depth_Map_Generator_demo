@@ -62,8 +62,6 @@ Upon completion, click "Finish" to open the output folder containing:
 <img width="500" height="500" alt="2" src="https://github.com/user-attachments/assets/925dbcb7-d017-4e55-8ea3-6f733e94c905" />
 <img width="500" height="500" alt="4" src="https://github.com/user-attachments/assets/5c74a610-19bd-45af-a35b-558b9733976d" />
 
-- Note: Visualizations are saved in the output/visualizations folder after running the tool.
-
 - Demo:
 ![Untitled video - Made with Clipchamp mp4](https://github.com/user-attachments/assets/90542c97-fafd-4ee1-bb4b-a6538d0937b8)
 
