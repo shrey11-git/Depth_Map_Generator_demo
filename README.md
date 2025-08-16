@@ -102,7 +102,7 @@ This project was developed as part of an internship under CORATIA TECHNOLOGIES P
 - References: Medium articles on Python best practices, pandas documentation, and SciPy's CloughTocher2DInterpolator documentation for guiding implementation.
 
 # ※ Disclaimer
-- # This repository is for demonstration purposes only.
-- # Due to NDA restrictions with Coratia Technologies Pvt. Ltd., the source code and proprietary datasets are not included.
-- # The content here (architecture notes, demo screenshots, visual previews, and learnings) is solely intended to showcase my contributions and project experience to recruiters and academic evaluators.
-- # All rights reserved. No part of this repository may be copied, reused, or redistributed without explicit permission.
+- This repository is for demonstration purposes only.
+- Due to NDA restrictions with Coratia Technologies Pvt. Ltd., the source code and proprietary datasets are not included.
+- The content here (architecture notes, demo screenshots, visual previews, and learnings) is solely intended to showcase my contributions and project experience to recruiters and academic evaluators.
+- All rights reserved. No part of this repository may be copied, reused, or redistributed without explicit permission.
