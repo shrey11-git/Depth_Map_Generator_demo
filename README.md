@@ -37,7 +37,8 @@ All outputs (visualizations and reports) are saved in the output/visualizations 
 
 <img width="180" height="220" alt="image" src="https://github.com/user-attachments/assets/71d0d008-114a-4ab3-8686-503d6f8a3a62" />
 
-# ※ Usage
+# ※ Usage (Demo Workflow)
+This section illustrates how the tool works (as shown in the demo GIF/screenshots below).
 - Launch the GUI:
   - Run python main.py or main.exe to open the Depth Map Generator interface.
 - Select a CSV File:
@@ -56,6 +57,7 @@ Upon completion, click "Finish" to open the output folder containing:
   - bathymetry_report.pdf: Three-page PDF report
 - CLI Mode (Optional):
   - Uncomment the relevant lines in main.py to run the pipeline via the command line for debugging or automation.
+- Note: Source code and executables are not included in this demo repository.
 # ※ Screenshots / Demo
 - GUI File Selection: Displays file selection, data preview, and raw/cleaned data options.
 - GUI Visualization: Shows progress bar and feedback during processing.
