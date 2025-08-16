@@ -26,6 +26,8 @@ The Depth Map Generator is a fully automated software tool designed to process r
   - geopandas: Geospatial data support
 - Package Installer: pip for installing Python packages
 # ※ Project Structure
+- Note: The actual source code is not included. The following structure and descriptions are provided in /architecture as design references to illustrate how the codebase was organized.
+
 The project is organized into modular Python scripts, each handling a specific part of the pipeline:
 - main.py: Entry point for the application, orchestrating the pipeline and launching the GUI. Supports CLI execution for debugging.
 - gui.py: Implements the PyQt6-based GUI for user interaction, file selection, data preview, and visualization generation.
@@ -100,7 +102,7 @@ This project was developed as part of an internship under CORATIA TECHNOLOGIES P
 - References: Medium articles on Python best practices, pandas documentation, and SciPy's CloughTocher2DInterpolator documentation for guiding implementation.
 
 # ※ Disclaimer
-- This repository is for demonstration purposes only.
-- Due to NDA restrictions with Coratia Technologies Pvt. Ltd., the source code and proprietary datasets are not included.
-- The content here (architecture notes, demo screenshots, visual previews, and learnings) is solely intended to showcase my contributions and project experience to recruiters and academic evaluators.
-- All rights reserved. No part of this repository may be copied, reused, or redistributed without explicit permission.
+#- This repository is for demonstration purposes only.
+#- Due to NDA restrictions with Coratia Technologies Pvt. Ltd., the source code and proprietary datasets are not included.
+#- The content here (architecture notes, demo screenshots, visual previews, and learnings) is solely intended to showcase my contributions and project experience to recruiters and academic evaluators.
+#- All rights reserved. No part of this repository may be copied, reused, or redistributed without explicit permission.
