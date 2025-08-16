@@ -1,0 +1,19 @@
+1. User loads a CSV dataset (via GUI or CLI).
+
+
+2. Data cleaning (data_loader.py) removes nulls, duplicates, and outliers, then saves a verified CSV.
+
+
+3. Interpolation (interpolation.py) turns cleaned point data into a regular grid using CloughTocher2DInterpolator, outputs .csv and .npz.
+
+
+4. Visualization (visualization.py) creates 2D contour maps, 3D surface plots, and summary tables from interpolated data.
+
+
+5. Report (report.py) compiles visualizations into a styled 3-page PDF.
+
+
+6. GUI (gui.py) provides an interactive PyQt6 interface for loading files, running the pipeline, showing progress, and opening results.
+
+
+7. Main (main.py) serves as the entry point, defaulting to GUI but also supports CLI execution.

@@ -1,0 +1,18 @@
+Purpose: Compiles outputs into a formal PDF report.
+
+Core Functions:
+- Creates a 3-page PDF:
+  -Page 1: 2D depth map
+  -Page 2: 3D depth map
+  -Page 3: Data table
+- Adds letterhead, titles, and footers.
+- Exports final bathymetry_report.pdf.
+
+Architecture:
+Input: visualization images (2D, 3D, table)
+   ↓
+Draw letterhead + title → Insert visualization image → Add footer
+   ↓
+Repeat for 3 pages
+   ↓
+Save bathymetry_report.pdf

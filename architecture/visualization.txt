@@ -1,0 +1,18 @@
+Purpose: Generates final outputs (maps, plots, tables).
+
+Core Functions:
+- Loads interpolated_data.npz.
+- Creates:
+  -2D contour map (with satellite basemap, scalebar, dynamic colorbar).
+  -3D surface plot (interactive via Plotly, exported as image).
+  -Data table (min/max + sample rows).
+- Saves all visualizations as .png.
+
+Architecture:
+Input: interpolated_data.npz + cleaned_data.csv
+   ↓
+Load & validate data
+   ↓
+2D contour map → 3D surface plot → Data table
+   ↓
+Save visualizations (.png)

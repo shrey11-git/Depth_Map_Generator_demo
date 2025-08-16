@@ -1,0 +1,15 @@
+Purpose: Turns cleaned point data into a continuous grid for visualization.
+
+Core Functions:
+- Reads cleaned CSV (lat, lon, distance).
+- Dynamically sets grid resolution based on dataset size.
+- Uses CloughTocher2DInterpolator to create a gridded surface.
+- Clips interpolated values within observed min/max range.
+- Saves results to .csv and .npz.
+
+Architecture:
+Input: cleaned_data.csv
+   ↓
+Grid setup (lat/lon mesh) → Interpolation → Value clipping
+   ↓
+Save interpolated_data.csv + interpolated_data.npz

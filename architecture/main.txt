@@ -1,0 +1,12 @@
+Purpose: Entry point for the tool.
+
+Core Functions:
+- Launches the PyQt6 GUI by default.
+- CLI fallback (if uncommented): runs sequential pipeline steps.
+
+Architecture:
+main.py
+   ↓
+launch_gui() by default
+   ↓
+(Optionally: load → clean → interpolate → visualize → report)

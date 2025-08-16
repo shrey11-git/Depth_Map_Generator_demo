@@ -1,0 +1,21 @@
+Purpose: Provides an interactive PyQt6 desktop interface.
+
+Core Features:
+- Step 1: Load CSV file + preview data.
+- Step 2: Run pipeline (cleaning → interpolation → visualization → report).
+- Shows live logs + progress bar.
+- Opens output folder after finishing.
+- Includes theme toggle, frameless draggable window, dark/light mode.
+
+Architecture:
+GUI Window
+   ↓
+User loads CSV → Selects Raw/Cleaned
+   ↓
+Run pipeline with progress updates:
+   1. Data cleaning
+   2. Interpolation
+   3. Visualizations
+   4. Report
+   ↓
+Outputs saved + opened in file explorer

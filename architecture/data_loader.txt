@@ -1,0 +1,17 @@
+Purpose: Cleans raw bathymetry CSV data.
+
+Core Functions:
+- Reads lat, lon, distance columns.
+- Handles null values, duplicates, and outliers.
+- Adaptive IQR multiplier adjusts outlier detection based on dataset size.
+- Saves cleaned data as cleaned_data.csv.
+- Returns path + quality summary.
+
+Architecture:
+Input: raw CSV file
+   ↓
+Validate & parse → drop nulls → remove duplicates → filter outliers → verify numeric types
+   ↓
+Save cleaned_data.csv + generate summary
+   ↓
+Output: (cleaned CSV, data summary string)
