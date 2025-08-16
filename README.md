@@ -37,23 +37,6 @@ All outputs (visualizations and reports) are saved in the output/visualizations 
 
 <img width="180" height="220" alt="image" src="https://github.com/user-attachments/assets/71d0d008-114a-4ab3-8686-503d6f8a3a62" />
 
-# ※ Setup & Installation
-- Prerequisites:
-  - Python 3.10 or higher
-  - pip package manager
-  - Virtual environment (recommended)
-- Clone the Repository: 
-git clone https://github.com/shrey11-git/_Bathymetry_Tool_.git cd _Bathymetry_Tool_
-- Set Up a Virtual Environment (optional but recommended):
-python -m venv venv, 
-source venv\Scripts\activate
-- Install Dependencies:
-pip install pandas numpy scipy matplotlib plotly PyQt6 reportlab contextily PyInstaller pytest geopandas
-- Prepare Input Data:
-Ensure your CSV file contains columns named lat, lon, and distance.
-Place the CSV file in a known directory (e.g., data/).
-- Run the Application:
-python main.py
 # ※ Usage
 - Launch the GUI:
   - Run python main.py or main.exe to open the Depth Map Generator interface.
@@ -111,9 +94,13 @@ This project was developed as part of an internship under CORATIA TECHNOLOGIES P
 - Real-Time Visualization: Add interactive previews of 2D/3D maps within the GUI using pyvista or plotly.
 - Batch Processing: Support processing multiple CSV files in a single session.
 - Customizable Reports: Allow users to customize PDF report layouts and content via the GUI.
-# ※ License
-This project is licensed under the MIT License. See the LICENSE file for details.
 # ※ Acknowledgements
 - Coratia Technologies: For providing the opportunity to develop this project during the internship.
 - Open-Source Community: For the robust libraries (pandas, numpy, scipy, matplotlib, plotly, PyQt6, ReportLab, contextily) that made this project possible.
 - References: Medium articles on Python best practices, pandas documentation, and SciPy's CloughTocher2DInterpolator documentation for guiding implementation.
+
+# ※ Disclaimer
+- This repository is for demonstration purposes only.
+- Due to NDA restrictions with Coratia Technologies Pvt. Ltd., the source code and proprietary datasets are not included.
+- The content here (architecture notes, demo screenshots, visual previews, and learnings) is solely intended to showcase my contributions and project experience to recruiters and academic evaluators.
+- All rights reserved. No part of this repository may be copied, reused, or redistributed without explicit permission.
