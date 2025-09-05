@@ -61,10 +61,12 @@ Upon completion, click "Finish" to open the output folder containing:
   - Uncomment the relevant lines in main.py to run the pipeline via the command line for debugging or automation.
 - Note: Source code and executables are not included in this demo repository.
 # ※ Screenshots / Demo
-- GUI File Selection: Displays file selection, data preview, and raw/cleaned data options.
-- GUI Visualization: Shows progress bar and feedback during processing.
+To view the demo images and workflow visuals, please check the [`Demo/`](./Demo) folder in this repository.  
+It contains:
+- GUI screenshots (file selection, data preview, visualization step)
+- Workflow diagram.
+- Demo GIF showing the complete workflow
 <img width="500" height="500" alt="2" src="https://github.com/user-attachments/assets/925dbcb7-d017-4e55-8ea3-6f733e94c905" />
-<img width="500" height="500" alt="4" src="https://github.com/user-attachments/assets/5c74a610-19bd-45af-a35b-558b9733976d" />
 
 - Demo:
 ![Untitled video - Made with Clipchamp mp4](https://github.com/user-attachments/assets/90542c97-fafd-4ee1-bb4b-a6538d0937b8)
