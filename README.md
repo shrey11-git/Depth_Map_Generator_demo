@@ -37,8 +37,6 @@ The project is organized into modular Python scripts, each handling a specific p
 - report.py: Creates a three-page PDF report using ReportLab, incorporating visualizations and a data table.
 All outputs (visualizations and reports) are saved in the output/visualizations directory.
 
-<img width="180" height="220" alt="image" src="https://github.com/user-attachments/assets/71d0d008-114a-4ab3-8686-503d6f8a3a62" />
-
 # ※ Usage (Demo Workflow)
 This section illustrates how the tool works (as shown in the demo GIF/screenshots below).
 - Launch the GUI:
@@ -67,9 +65,6 @@ It contains:
 - Workflow diagram.
 - Demo GIF showing the complete workflow
 <img width="500" height="500" alt="2" src="https://github.com/user-attachments/assets/925dbcb7-d017-4e55-8ea3-6f733e94c905" />
-
-- Demo:
-![Untitled video - Made with Clipchamp mp4](https://github.com/user-attachments/assets/90542c97-fafd-4ee1-bb4b-a6538d0937b8)
 
 # ※ Internship Context
 This project was developed as part of an internship under CORATIA TECHNOLOGIES Pvt. Ltd. focused on automating bathymetric data processing for marine research. The goal was to create a user-friendly tool that transforms raw ASV data into actionable visualizations and reports, reducing manual effort for researchers and surveyors. The tool addresses the need for reliable, automated processing of geospatial data while maintaining high-quality outputs suitable for professional reports.
