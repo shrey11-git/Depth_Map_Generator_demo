@@ -64,7 +64,6 @@ It contains:
 - GUI screenshots (file selection, data preview, visualization step)
 - Workflow diagram.
 - Demo GIF showing the complete workflow
-<img width="500" height="500" alt="2" src="https://github.com/user-attachments/assets/925dbcb7-d017-4e55-8ea3-6f733e94c905" />
 
 # ※ Internship Context
 This project was developed as part of an internship under CORATIA TECHNOLOGIES Pvt. Ltd. focused on automating bathymetric data processing for marine research. The goal was to create a user-friendly tool that transforms raw ASV data into actionable visualizations and reports, reducing manual effort for researchers and surveyors. The tool addresses the need for reliable, automated processing of geospatial data while maintaining high-quality outputs suitable for professional reports.
